@@ -241,7 +241,7 @@
 ---  cmp = true,
 ---  diagnostics_mode = 3,
 ---  highlighturl = true,
----  notiifcations = true,
+---  notifications = true,
 ---  large_buf = { size = 1024 * 100, lines = 10000 },
 ---}
 ---```
