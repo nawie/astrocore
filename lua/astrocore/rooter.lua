@@ -1,6 +1,6 @@
 ---AstroNvim Rooter
 ---
----Utilities necessary for automatic root detectoin
+---Utilities necessary for automatic root detection
 ---
 ---This module is heavily inspired by LazyVim and project.nvim
 ---https://github.com/ahmedkhalf/project.nvim
@@ -132,7 +132,7 @@ function M.detect(bufnr, all)
   return ret
 end
 
---- Get information information about the current root
+--- Get information about the current root
 function M.info()
   local lines = {}
   if vim_autochdir then
